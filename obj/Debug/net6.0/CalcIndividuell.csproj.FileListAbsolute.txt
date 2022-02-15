@@ -1,0 +1,15 @@
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\bin\Debug\net6.0\CalcIndividuell.exe
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\bin\Debug\net6.0\CalcIndividuell.deps.json
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\bin\Debug\net6.0\CalcIndividuell.runtimeconfig.json
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\bin\Debug\net6.0\CalcIndividuell.dll
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\bin\Debug\net6.0\ref\CalcIndividuell.dll
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\bin\Debug\net6.0\CalcIndividuell.pdb
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.csproj.AssemblyReference.cache
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.AssemblyInfoInputs.cache
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.AssemblyInfo.cs
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.csproj.CoreCompileInputs.cache
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.dll
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\ref\CalcIndividuell.dll
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.pdb
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.genruntimeconfig.cache
