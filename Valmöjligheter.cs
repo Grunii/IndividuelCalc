@@ -24,6 +24,10 @@ namespace CalcIndividuell
                 case "2":
                     Calcval();
                     break;
+                case "xyzzy":
+                    Console.WriteLine("Nothing happens");
+                    break;
+                    
                     default:
                     val();
                     return;
@@ -51,6 +55,10 @@ namespace CalcIndividuell
                     Console.WriteLine(temp.FarenheitToCelsius(Numb));
                     Console.WriteLine("Celsius");
                     break;
+                case "xyzzy":
+                    Console.WriteLine("Nothing happens");
+                    break;
+
                 default:
                     val();
                     return;
@@ -88,6 +96,9 @@ namespace CalcIndividuell
                     break;
                     case"4":
                     Console.WriteLine(calc.multiplikation(NumbFörsta,NumbAndra));
+                    break;
+                case "xyzzy":
+                    Console.WriteLine("Nothing happens");
                     break;
                 default:
                     val();

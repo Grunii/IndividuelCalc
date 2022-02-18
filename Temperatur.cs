@@ -10,13 +10,13 @@ namespace CalcIndividuell
     {
 
       
-        public decimal CelsiusToFarenheit(decimal x)
+        public decimal CelsiusToFarenheit(decimal CelsToFar)
         {
-            return (x * 9) / 5 + 32;
+            return (CelsToFar * 9) / 5 + 32;
         }
-        public decimal FarenheitToCelsius(decimal x)
+        public decimal FarenheitToCelsius(decimal FarToCels)
         {
-            return (x - 32) * 5 / 9;
+            return (FarToCels - 32) * 5 / 9;
         }
     }
 }

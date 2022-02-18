@@ -8,33 +8,34 @@ namespace CalcIndividuell
 {
     public class Uträkning
     {
-       public decimal addition(decimal x, decimal y)
+       public decimal addition(decimal FörstaTalet, decimal AndraTalet)
         {
-            return x + y;
+            return FörstaTalet + AndraTalet;
             
         }
-        public decimal division(decimal x, decimal y)
+        public decimal division(decimal FörstaTalet, decimal AndraTalet)
         {
+
             try
             {
-               return x / y;
+               return FörstaTalet / AndraTalet;
             }
             catch (DivideByZeroException)
             {
                 Console.WriteLine("Du försökte dividera med 0");
-                Console.WriteLine("Ditt andra tal var"); return y;
+                Console.WriteLine("Ditt andra tal var"); return AndraTalet;
                 
             }
             
 
         }
-        public decimal subtraktion(decimal x, decimal y)
+        public decimal subtraktion(decimal FörstaTalet, decimal AndraTalet)
         {
-            return x - y;
+            return FörstaTalet - AndraTalet;
         }
-        public decimal multiplikation(decimal x, decimal y)
+        public decimal multiplikation(decimal FörstaTalet, decimal AndraTalet)
         {
-            return x * y;
+            return FörstaTalet * AndraTalet;
         }
        
     }
