@@ -15,7 +15,18 @@ namespace CalcIndividuell
         }
         public decimal division(decimal x, decimal y)
         {
-            return x / y;
+            try
+            {
+               return x / y;
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Du försökte dividera med 0");
+                Console.WriteLine("Ditt andra tal var"); return y;
+                
+            }
+            
+
         }
         public decimal subtraktion(decimal x, decimal y)
         {

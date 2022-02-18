@@ -63,7 +63,37 @@ namespace CalcIndividuell
         }
            public void Calcval()
             {
+            Inmatning inmatning = new();
+            Uträkning calc = new();
+            
+            Console.WriteLine("skriv ett tal");
+            decimal NumbFörsta = inmatning.InmatatningAvTal();
+            Console.WriteLine("Skriv ett till");
+            decimal NumbAndra = inmatning.InmatatningAvTal();
+            Console.WriteLine("Skriv 1 och tryck enter för att addera");
+            Console.WriteLine("Skriv 2 och tryck enter för att subtrahera");
+            Console.WriteLine("Skriv 3 och tryck enter för att dividera");
+            Console.WriteLine("Skriv 4 och tryck enter för att multiplicera");
 
+            switch (inmatning.InmatningAvVal())
+            {
+                case "1":
+                    Console.WriteLine(calc.addition(NumbFörsta,NumbAndra));
+                    break;
+                    case"2":
+                    Console.WriteLine(calc.subtraktion(NumbFörsta,NumbAndra));
+                    break;
+                    case"3":
+                    Console.WriteLine(calc.division(NumbFörsta,NumbAndra));
+                    break;
+                    case"4":
+                    Console.WriteLine(calc.multiplikation(NumbFörsta,NumbAndra));
+                    break;
+                default:
+                    val();
+                    return;
             }
+
+        }
     }
 }

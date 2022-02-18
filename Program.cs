@@ -1,4 +1,8 @@
 ﻿using CalcIndividuell;
 Valmöjligheter val = new();
-val.val();
+while (true)
+{
+ val.val();
+}
+
 
