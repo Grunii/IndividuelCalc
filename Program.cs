@@ -1,8 +1,11 @@
 ﻿using CalcIndividuell;
 Valmöjligheter val = new();
-while (true)
-{
- val.Val();
+bool running = true;
+
+while (running)
+{  
+     val.ChoiceOfPath();
+   
 }
 
 

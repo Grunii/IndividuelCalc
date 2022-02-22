@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\CalcIndividuell.csproj": {}
+    "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\CalcIndividuell.csproj": {
+    "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\CalcIndividuell.csproj",
-        "projectName": "CalcIndividuell",
-        "projectPath": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\CalcIndividuell.csproj",
+        "projectUniqueName": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\Program.csproj",
+        "projectName": "Program",
+        "projectPath": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\Program.csproj",
         "packagesPath": "C:\\Users\\karle\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\obj\\",
         "projectStyle": "PackageReference",

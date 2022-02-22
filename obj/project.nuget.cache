@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZkbCdibUp0gzJBIv4NH+jt4A1S/ZN+pjiQfE5dHOPVnaqSqpjTKZmpzeIFWPovLsTdfqr1hc3pCpJWh1be+RYg==",
+  "dgSpecHash": "pZJeE7iWzEegGKyr1HGYwc8hS1OThx7IKp3fFTyQMN94qr9qmW2f3rC9io+AgpWHwnLxROxos5kS22n8Ah9JLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\CalcIndividuell.csproj",
+  "projectFilePath": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\Program.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

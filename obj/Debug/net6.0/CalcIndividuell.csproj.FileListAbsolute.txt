@@ -13,3 +13,6 @@ C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\Cal
 C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\ref\CalcIndividuell.dll
 C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.pdb
 C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.genruntimeconfig.cache
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\bin\Debug\net6.0\ClassLibrary1.dll
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\bin\Debug\net6.0\ClassLibrary1.pdb
+C:\Users\karle\source\repos\CalcIndividuell\CalcIndividuell\obj\Debug\net6.0\CalcIndividuell.csproj.CopyComplete

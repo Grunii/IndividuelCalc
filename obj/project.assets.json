@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/ClassLibrary.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ClassLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\karle\\.nuget\\packages\\": {},
@@ -14,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\CalcIndividuell.csproj",
-      "projectName": "CalcIndividuell",
-      "projectPath": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\CalcIndividuell.csproj",
+      "projectUniqueName": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\Program.csproj",
+      "projectName": "Program",
+      "projectPath": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\Program.csproj",
       "packagesPath": "C:\\Users\\karle\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\CalcIndividuell\\obj\\",
       "projectStyle": "PackageReference",
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\ClassLibrary1\\ClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\karle\\source\\repos\\CalcIndividuell\\ClassLibrary1\\ClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
