@@ -2,7 +2,7 @@
 Valmöjligheter val = new();
 while (true)
 {
- val.val();
+ val.Val();
 }
 
 

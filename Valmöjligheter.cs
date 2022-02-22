@@ -9,12 +9,14 @@ namespace CalcIndividuell
 {
     public class Valmöjligheter
     {
-        public void val()
+        
+        public void Val()
         {
+            EasterEgg easterEgg = new EasterEgg();
             Console.WriteLine("Välkomen till Console Calc!");
             Console.WriteLine("Tryck 1 och enter för att omvandla Temperatur");
             Console.WriteLine("Tryck 2 och enter för att använda calculatorn");
-            Console.WriteLine("Tryck enter för att komma tillbaka till starten");
+            
             switch (Console.ReadLine())
             {
                 case "1":
@@ -27,9 +29,14 @@ namespace CalcIndividuell
                 case "xyzzy":
                     Console.WriteLine("Nothing happens");
                     break;
+                case "MusicBox":
+                    easterEgg.MyEasterEgg();
+                    break;
+                    
+
                     
                     default:
-                    val();
+                    Val();
                     return;
             }
         }
@@ -60,7 +67,7 @@ namespace CalcIndividuell
                     break;
 
                 default:
-                    val();
+                    Val();
                     return;
                   
 
@@ -69,6 +76,7 @@ namespace CalcIndividuell
 
 
         }
+        
            public void Calcval()
             {
             Inmatning inmatning = new();
@@ -101,7 +109,7 @@ namespace CalcIndividuell
                     Console.WriteLine("Nothing happens");
                     break;
                 default:
-                    val();
+                    Val();
                     return;
             }
 
